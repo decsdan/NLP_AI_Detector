@@ -1,0 +1,9 @@
+THIS IS A PLACEHOLDER FOR WHERE TASK A DATA NEEDS TO GO, DOWNLOAD IT FROM
+
+
+  https://www.kaggle.com/datasets/daniilor/semeval-2026-task13
+
+or
+
+
+  https://huggingface.co/datasets/DaniilOr/SemEval-2026-Task13
