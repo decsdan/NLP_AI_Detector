@@ -1,0 +1,35 @@
+
+
+
+Reference columns via df calls to column names, all dfs have the same name for columns
+
+code, generator, label, language (and they also have index values, which you can just call using df methods)
+
+Training: 
+
+
+
+0  (a, b, c, d) = [int(x) for x in input().split(...                           human      0   Python
+1  valid version for the language; all others can...         Qwen/Qwen2.5-Coder-1.5B      1   Python
+2  python\ndef min_cards_to_flip(s):\n    vowels ...  Qwen/Qwen2.5-Coder-7B-Instruct      1   Python
+3  T = int(input())\nfor t in range(T):\n\tcolor ...                           human      0   Python
+4  for i in range(int(input())):\n\tinput()\n\ta ...                           human      0   Python
+
+
+
+Validation:
+                                                code                        generator  label language
+0  import sys\ninf = float('inf')\nfrom bisect im...                            human      0   Python
+1  def Range(a): return min(max(a, -10), 10)\n\nd...          meta-llama/Llama-3.1-8B      1   Python
+2  #include<bits/stdc++.h>\n\n\n\nusing namespace...                            human      0      C++
+3  t = int(input())\nfor _ in range(t):\n\tn = in...                            human      0   Python
+4  def subArraySum(arr, n, target_sum):\n    coun...  Qwen/Qwen2.5-Coder-32B-Instruct      1   Python
+
+
+
+                                                code generator  label language
+0  public Vector To(Vector o)\n        {\n       ...     Human      0       C#
+1  func (v *DefaultMessageSyntaxValidator) Valida...     Human      0       Go
+2  """Module managing testsuite capabilities\n\nC...     Human      0   Python
+3  void Anvil::Image::on_memory_backing_opaque_up...     Human      0      C++
+4  bool NOMAD::Priority_Eval_Point::dominates\n( ...     Human      0      C++
