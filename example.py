@@ -1,3 +1,4 @@
+#justin
 import pandas as pd
 import numpy as np
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, get_cosine_schedule_with_warmup
@@ -79,6 +80,7 @@ for epoch in range(NUM_EPOCHS):
         
         total_loss += loss.item()
     print(f"Epoch {epoch+1} | Avg Loss: {total_loss / len(train_loader):.4f}")
+
 
 
 
